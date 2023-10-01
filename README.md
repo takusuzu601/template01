@@ -3,12 +3,11 @@
 
 ## Laravel　WEBサイト制作用 初期テンプレート
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+サイト制作にあたり初期のテンプレートを作成
 
 - Laravel9 バージョン9
 - Vite使用
 - CSS MediaQuery
-
 
 Laravel is accessible, powerful, and provides tools required for large, robust applications.
 
