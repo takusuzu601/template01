@@ -9,7 +9,7 @@
 - Vite使用 
 - CSS MediaQuery 
 - Swipper js (メインスライダー) 
-- バーガーメニューYOUTUBE　LINK(https://www.youtube.com/watch?v=yE9DLIoDwCg)
+- バーガーメニューYOUTUBE　LINK (https://www.youtube.com/watch?v=yE9DLIoDwCg)
 
 
 
