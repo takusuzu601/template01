@@ -3,16 +3,14 @@
 
 ## Laravel　WEBサイト制作用 初期テンプレート
 
-サイト制作にあたり初期のテンプレートを作成
+2023/10/01 BRANCH2
 
--*1 Laravel9 バージョン9
--*1 Vite使用
--*1 CSS MediaQuery
--*2 Swipper js (メインスライダー)
--*2 バーガーメニューYOUTUBE　LINK(https://www.youtube.com/watch?v=yE9DLIoDwCg)
+- Laravel9 バージョン9 
+- Vite使用 
+- CSS MediaQuery 
+- Swipper js (メインスライダー) 
+- バーガーメニューYOUTUBE　LINK(https://www.youtube.com/watch?v=yE9DLIoDwCg)
 
-2023/10/01
 
-## ライセンス
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
