@@ -5,11 +5,11 @@
 
 サイト制作にあたり初期のテンプレートを作成
 
-- Laravel9 バージョン9
-- Vite使用
-- CSS MediaQuery
-- Swipper js (メインスライダー)
-- バーガーメニューYOUTUBE　LINK(https://www.youtube.com/watch?v=yE9DLIoDwCg)
+-*1 Laravel9 バージョン9
+-*1 Vite使用
+-*1 CSS MediaQuery
+-*2 Swipper js (メインスライダー)
+-*2 バーガーメニューYOUTUBE　LINK(https://www.youtube.com/watch?v=yE9DLIoDwCg)
 
 2023/10/01
 
