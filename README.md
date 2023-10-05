@@ -8,6 +8,8 @@
 - Laravel9 バージョン9
 - Vite使用
 - CSS MediaQuery
+- Swipper js (メインスライダー)
+- バーガーメニューYOUTUBE　LINK(https://www.youtube.com/watch?v=yE9DLIoDwCg)
 
 2023/10/01
 

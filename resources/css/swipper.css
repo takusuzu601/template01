@@ -1,0 +1,121 @@
+.swiper-container {
+    position: relative;
+    width: 100%;
+    /* 以下の部分で画像幅を変更 */
+    height:50vh;
+}
+
+.swiper-slide {
+    position: relative;
+  }
+
+  .swiper-catch {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    max-width:90vw;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    color: #fff;
+  }
+
+  .swiper-catch * {
+    flex-shrink: 0;
+  }
+  .swiper-catch h1 {
+    font-weight: bold;
+  }
+  .swiper-catch p {
+    margin: 0;
+    line-height: 1.75;
+  }
+
+
+  .swiper-pagination .swiper-pagination-bullets .swiper-pagination-horizontal{
+    z-index: 8;
+  }
+  
+/* 超小型デバイス (携帯電話,600px以下) */
+@media only screen and (max-width: 600px) {
+    .swiper-container {
+        /* 以下の部分で画像高を変更 */
+        height:50vh;
+    }
+    
+    .swiper-catch h1 {
+        font-size:5.5vw;
+      }
+      .swiper-catch p {
+        font-size:2.3vw;
+      }
+}
+/* 小型デバイス (縦長のタブレットおよび大型携帯電話、600px 以上) */
+
+@media only screen and (min-width: 600px) {
+    .swiper-container {
+        /* 以下の部分で画像高を変更 */
+        height:70vh;
+    }
+
+        .swiper-catch h1 {
+        font-size:6.5vw;
+      }
+      .swiper-catch p {
+        font-size:2.3vw;
+      }
+
+}
+/* 中型デバイス (横向きタブレット、768px 以上) */
+@media only screen and (min-width: 768px) {
+
+    .swiper-container {
+        /* 以下の部分で画像高を変更 */
+        height:80vh;
+    }
+
+    .swiper-catch h1 {
+        font-size:5.5vw;
+      }
+      .swiper-catch p {
+        font-size: 2.3vw;
+      }
+
+}
+/* 大型デバイス (ラップトップ/デスクトップ、992px 以上) */
+@media only screen and (min-width: 992px) {
+    .swiper-container {
+        /* 以下の部分で画像高を変更 */
+        height:80vh;
+    }
+
+    .swiper-catch h1 {
+        font-size:5vw;
+      }
+      .swiper-catch p {
+        font-size:2vw;
+      }
+
+}
+/* 超大型デバイス(大型のラップトップおよびデスクトップ、1200px 以上) */
+@media only screen and (min-width: 1200px) {
+    .swiper-container {
+        /* 以下の部分で画像高を変更 */
+        height:80vh;
+    }
+    .swiper-catch h1 {
+        font-size:60px;
+      }
+      .swiper-catch p {
+        font-size:24px;
+      }
+
+}
+
+
+
+
