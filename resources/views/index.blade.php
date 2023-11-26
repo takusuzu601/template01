@@ -26,24 +26,28 @@
 
     {{-- Header  --}}
     <header class="header">
-        <a href="" class="logo">
-            LOGO
-        </a>
-        <input type="checkbox" id="check">
-        <label for="check" class="icons">
-            <i class="bx bx-menu" id="menu-icon"></i>
-            <i class='bx bx-x' id="close-icon"></i>
-        </label>
-        <nav class="navbar">
-            <ul>
-                <li><a href="#" style="--i:0;">Home</a></li>
-                <li><a href="#" style="--i:1;">About</a></li>
-                <li><a href="#" style="--i:2;">Gallery</a></li>
-                <li><a href="#" style="--i:3;">Services</a></li>
-                <li><a href="#" style="--i:4;">Contact</a></li>
-            </ul>
-        
-        </nav>
+
+<div class="header-wapper">
+    <a href="" class="logo">
+        LOGO
+    </a>
+    <input type="checkbox" id="check">
+    <label for="check" class="icons">
+        <i class="bx bx-menu" id="menu-icon"></i>
+        <i class='bx bx-x' id="close-icon"></i>
+    </label>
+    <nav class="navbar">
+        <ul>
+            <li><a href="#" style="--i:0;">Home</a></li>
+            <li><a href="#" style="--i:1;">About</a></li>
+            <li><a href="#" style="--i:2;">Gallery</a></li>
+            <li><a href="#" style="--i:3;">Services</a></li>
+            <li><a href="#" style="--i:4;">Contact</a></li>
+        </ul>
+    
+    </nav>
+</div>
+
     </header>
     {{-- Header --}}
    
@@ -121,19 +125,19 @@
     <script src="https://code.jquery.com/jquery-3.7.1.slim.min.js"
         integrity="sha256-kmHvs0B+OpCW5GVHUNjv9rOmY0IvSIRcf7zGUDTDQM8=" crossorigin="anonymous"></script>
     <script type="module">
-        // import Swiper from 'https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.mjs'
-        var mySwiper = new Swiper('.swiper-container', {
-            loop: true, //ループ
-            effect: 'fade', //フェード
-            autoplay: { //自動再生
-                delay: 3000,
-            },
-            pagination: {
-                el: '.swiper-pagination',
-            },
-            speed: 2000, // ２秒かけながら次の画像へ移動
+    
+        // var mySwiper = new Swiper('.swiper-container', {
+        //     loop: true, //ループ
+        //     effect: 'fade', //フェード
+        //     autoplay: { //自動再生
+        //         delay: 3000,
+        //     },
+        //     pagination: {
+        //         el: '.swiper-pagination',
+        //     },
+        //     speed: 2000, // ２秒かけながら次の画像へ移動
 
-        })
+        // })
     </script>
 
 </body>
