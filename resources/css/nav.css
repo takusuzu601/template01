@@ -3,12 +3,21 @@ header{
     top: 0;
     left: 0;
     width: 100%;
-    padding: 1.3rem 10%;
-    background: red;
+    padding: 1.3rem 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
     z-index: 100;
+}
+
+.header-wapper{
+    width: 100%;
+    max-width:90vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    margin: 0 auto;
 }
 
 
